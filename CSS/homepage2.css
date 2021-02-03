@@ -1,0 +1,67 @@
+/********
+*** =logo
+*******/
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+#logo{
+    width:7%;
+    margin-top: 1%;
+}
+#logoheading{
+    margin-top:-5%;
+    margin-left: 7.5%;
+    padding-top:0px;
+    color: rgb(10, 62, 110);
+    font-family: 'Yusei Magic', sans-serif;
+}
+#logoheading2{
+    margin-top:-8.3%;
+    margin-left: 10%;
+    padding-top:0px;
+    font-size: 75px;
+    color: rgb(10, 62, 110);
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+/***********
+*** =header
+**********
+header {
+    background: linear-gradient(90deg, white, grey);
+} */
+
+/***********
+*** =navigation
+***********/
+nav {
+    margin-top: -6.7%;
+    margin-left: 20%;
+}
+nav li {
+    display:inline;
+    padding-left: 40px;
+}
+nav li a{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 100;
+    color: rgb(10, 62, 110);
+    letter-spacing: 0.5px;  
+}
+/********
+*** =body
+option 1. linear-gradient(90deg,white,#90b5f6);
+option 2. linear-gradient(90deg,rgb(125, 188, 236), rgb(159, 143, 252));
+option 3. linear-gradient(90deg,rgb(159, 143, 252),rgb(125, 188, 236));
+*******/
+body {
+    background-color: rgb(92,219,148);
+    color: rgb(10, 62, 110);
+}
+/*********
+*** =selected
+*********/
+.selected {
+    font-weight: 900;
+    color: rgb(8, 47, 83);
+}

@@ -1,0 +1,57 @@
+/********
+*** =logo
+*******/
+#logo{
+    width:10%;
+
+}
+#logoheading{
+    margin-top:-5%;
+    margin-left: 10%;
+    padding-top:0px;
+    color: rgb(0, 0, 205);
+}
+
+/***********
+*** =header
+**********
+header {
+    background: linear-gradient(90deg, white, grey);
+} */
+
+/***********
+*** =navigation
+***********/
+nav {
+    margin-top: -3.5%;
+    margin-left: 45%;
+}
+nav li {
+    display:inline;
+    padding-left: 40px;
+}
+nav li a{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 0.5px;  
+}
+/********
+*** =body
+option 1. linear-gradient(90deg,white,#90b5f6);
+option 2. linear-gradient(90deg,rgb(125, 188, 236), rgb(159, 143, 252));
+option 3. linear-gradient(90deg,rgb(159, 143, 252),rgb(125, 188, 236));
+*******/
+body {
+    background: linear-gradient(90deg,white,rgb(159,143,252));
+}
+/*********
+*** =selected
+*********/
+.selected {
+    color: orangered;
+    font-weight: 900;
+    border-bottom: 2px solid gray ;
+}
